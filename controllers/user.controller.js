@@ -3,9 +3,12 @@ var shortid = require('shortid');
 
 
 module.exports.index = function(req,res){
+    var cookiesObj = req.cookies;
+    console.log(cookiesObj);
     res.render('users/index',{
-        users:db.get('users').value()
+        users:db.get('users').value(),
     });
+    
 };
 
 module.exports.search = function(req,res){
@@ -25,7 +28,7 @@ module.exports.create = function(req,res){
 
 module.exports.getCreate = function(req,res){
     var id =req.params.id ;
-   
+
     var listUser = db.get('users').find({id:id}).value();
     console.log(listUser);
     res.render('users/detail',{

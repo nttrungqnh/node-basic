@@ -6,7 +6,9 @@
     },
     {
       "id": "2",
-      "name": "Nguyễn Thành Trung"
+      "name": "Nguyễn Thành Trung",
+      "email": "nttrung.qnh@vnpt.vn",
+      "password": "123456"
     },
     {
       "id": "3",
