@@ -1,0 +1,25 @@
+extends ../layouts/common.pug
+
+block content
+  h3 Users List
+
+  a(href='/user/create',class="btn btn-success") Create User
+  .d-flex.align-items-center
+    form.ml-auto(action='/user/search',class='d-flex')
+      input(type='text', name='q',class='form-control')
+      button(class='btn btn-primary ml-2') Search
+    
+  table.table.table-bordered
+    tr
+      th Name
+      th Phone
+      th #
+    each item in users
+      tr
+        td= item.name
+        td= item.phone
+        td
+          a(href='/user/'+item.id) Detail
+
+
+  

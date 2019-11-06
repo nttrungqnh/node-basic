@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Vũ"
+    },
+    {
+      "id": "2",
+      "name": "Nguyễn Thành Trung"
+    },
+    {
+      "id": "3",
+      "name": "Bách"
+    },
+    {
+      "id": "4",
+      "name": "Trung"
+    },
+    {
+      "name": "Trang",
+      "id": "X09Wd7-t"
+    },
+    {
+      "name": "Thảo",
+      "id": "AMb6v3hB"
+    },
+    {
+      "name": "Thúy",
+      "id": "SCCAdJWK"
+    },
+    {
+      "name": "Thành Trung",
+      "phone": "0985993638",
+      "id": "8ygznqvl"
+    },
+    {
+      "name": "Nguyễn Tiến Bình",
+      "phone": "0975775245",
+      "id": "gFmW2G07"
+    }
+  ]
+}
